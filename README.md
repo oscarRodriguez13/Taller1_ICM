@@ -1,4 +1,4 @@
-# Taller 1
+# COPYPASTE
 
 Este es el repositorio del Taller 1, desarrollado por:
 
