@@ -1,8 +1,11 @@
-Copypaste
+# Taller 1
 
-Oscar Alejandro Rodriguez Gómez
-Pablo Javier Escobar
-Leonardo Velazquez Colin
+Este es el repositorio del Taller 1, desarrollado por:
 
+- Oscar Alejandro Rodriguez Gómez
+- Pablo Javier Escobar
+- Leonardo Velazquez Colin
 
-Video: 
+## Video
+
+Aquí puedes encontrar un video relacionado con el proyecto: 
