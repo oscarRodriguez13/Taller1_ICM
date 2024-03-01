@@ -1,0 +1,42 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Spinner
+        android:id="@+id/spinCategorias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_above="@id/btnExplorar"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnExplorar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/explorar_destinos"
+        android:layout_marginStart="16dp"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnFavoritos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/favoritos"
+        android:layout_marginStart="16dp"
+        android:layout_below="@id/btnExplorar"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnRecomendaciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/recomendaciones"
+        android:layout_below="@id/btnFavoritos"
+        android:layout_marginStart="16dp"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

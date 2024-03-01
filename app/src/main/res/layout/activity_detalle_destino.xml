@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetalleDestinoActivity">
+
+    <Button
+        android:id="@+id/btnFavs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/a_adir_a_favoritos"
+        android:layout_marginStart="16dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/nombreDestino"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nombredestino"
+        android:layout_above="@id/pais"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/pais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pais"
+        android:layout_above="@id/categoria"
+        android:layout_centerHorizontal="true"
+        android:textSize="17sp"/>
+
+    <TextView
+        android:id="@+id/categoria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/categoria"
+        android:layout_centerInParent="true"
+        android:textSize="17sp"/>
+
+    <TextView
+        android:id="@+id/plan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/plan"
+        android:layout_below="@id/categoria"
+        android:layout_centerHorizontal="true"
+        android:textSize="17sp"/>
+
+    <TextView
+        android:id="@+id/precio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/precio"
+        android:layout_below="@id/plan"
+        android:layout_centerHorizontal="true"
+        android:textSize="17sp"/>
+
+    <TextView
+        android:id="@+id/clima"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_below="@id/precio"
+        android:layout_centerHorizontal="true"
+        android:textSize="17sp"/>
+
+</RelativeLayout>
