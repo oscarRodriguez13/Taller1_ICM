@@ -8,4 +8,4 @@ Este es el repositorio del Taller 1, desarrollado por:
 
 ## Video
 
-Aquí puedes encontrar un video relacionado con el proyecto: 
+Aquí puedes encontrar un video relacionado con el taller: https://youtu.be/B7-mV9XQFfI
